@@ -36,11 +36,9 @@
 
   _tfa.push({notify: 'event', name: 'view_content', id: 1493255});
 
-  $(".AddToCart_ADV").on('click', function(event){
-    event.stopPropagation();
-    event.stopImmediatePropagation();
-    alert('teste');
-  });
+  $(document).on('click', '.AddToCart_ADV', function () {
+  alert('teste');
+});
 </script>
 <!-- End of Taboola Pixel Code -->
 
