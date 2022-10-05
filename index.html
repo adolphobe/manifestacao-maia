@@ -32,8 +32,16 @@
    //FACEBOOK PAGEVIEW
    fbq('track', 'ViewContent');
 
+  
+  function AddToCart(){     
+
   // FACEBOOK ADDTOCART
-    function AddToCart(){      fbq('track', 'AddToCart');     }
+  fbq('track', 'AddToCart');  
+
+  //TABOOLA ADD TO CART
+  _tfa.push({notify: 'event', name: 'add_to_cart', id: taboola_pixel});
+  
+   }
 
   //TABOOLA CAIU NO DESTINO
   _tfa.push({notify: 'event', name: 'caiu_no_destino', id: taboola_pixel});
