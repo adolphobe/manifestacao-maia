@@ -11,7 +11,6 @@ fbq('init', '543185694227266');
 fbq('init', '1116506585624643');
 
 
-
 //TABOOLA
 var taboola_pixel = 1493255;
 
